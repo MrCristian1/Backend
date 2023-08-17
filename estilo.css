@@ -1,0 +1,56 @@
+/* estilo.css */
+
+/* estilo.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+h2 {
+    color: #33ff33;
+    text-shadow: 0 0 10px #33ff33;
+}
+
+form {
+    margin-bottom: 20px;
+    border: 1px solid #33ff33;
+    padding: 10px;
+    background-color: rgba(51, 255, 51, 0.1);
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 150px;
+    background-color: #000;
+    color: #33ff33;
+    border: 1px solid #33ff33;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+select, input[type="submit"] {
+    padding: 5px;
+    background-color: #33ff33;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+select:hover, input[type="submit"]:hover {
+    background-color: #000;
+    color: #33ff33;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #33ff33;
+    background-color: rgba(51, 255, 51, 0.1);
+    text-align: center;
+    text-shadow: 0 0 5px #33ff33;
+}
+
